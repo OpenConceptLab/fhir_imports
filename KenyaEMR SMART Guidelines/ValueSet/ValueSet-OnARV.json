@@ -1,0 +1,66 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "OnARV",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://path-global-health.github.io/MERindicators/ValueSet/OnARV",
+  "version" : "0.1.0",
+  "name" : "OnARV",
+  "title" : "History of antiretroviral therapy (situation)",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2023-09-01T00:14:22+00:00",
+  "publisher" : "PATH",
+  "contact" : [{
+    "name" : "PATH",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.path.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@path.org"
+    }]
+  },
+  {
+    "name" : "PATH",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "info@path.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "History of antiretroviral therapy (situation)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "432101000124108",
+        "display" : "History of antiretroviral therapy (situation)"
+      }]
+    },
+    {
+      "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE",
+      "concept" : [{
+        "code" : "432101000124108",
+        "display" : "History of antiretroviral therapy (situation)"
+      }]
+    },
+    {
+      "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
+      "concept" : [{
+        "code" : "160119",
+        "display" : "CURRENTLY TAKING ARV"
+      }]
+    }]
+  }
+}

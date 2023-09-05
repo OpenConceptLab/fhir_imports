@@ -1,0 +1,62 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "DAKDispensingQuantityCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/DAKDispensingQuantityCS",
+  "version" : "0.1.0",
+  "name" : "DAKDispensingQuantityCS",
+  "title" : "DAKDispensingQuantityCS",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-09-01T00:14:22+00:00",
+  "publisher" : "PATH",
+  "contact" : [{
+    "name" : "PATH",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.path.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@path.org"
+    }]
+  },
+  {
+    "name" : "PATH",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "info@path.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "DAKDispensingQuantityCS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "notMMD",
+    "display" : "<3 months of ARVs"
+  },
+  {
+    "code" : "3to5MMD",
+    "display" : "3-5 months of ARVs"
+  },
+  {
+    "code" : "6MMD",
+    "display" : "6 or more months of ARVs"
+  },
+  {
+    "code" : "NoData",
+    "display" : "No Data"
+  }]
+}
