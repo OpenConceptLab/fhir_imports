@@ -2,23 +2,14 @@ name: Deploy
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
-on:
-  workflow_dispatch:
-    inputs:
-      name:
-        description: 'Person to greet'
-        # Default value if no value is explicitly provided
-        default: 'World'
-        # Input has to be provided for the workflow to run
-        required: true
-        # The data type of the input
-        type: string
+on: workflow_dispatch
 
 jobs:
   deploy:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     steps:
-    - name: Send greeting
-      run: echo "Hello ${{ inputs.name }}"
+    - name: Checkout repo
+      uses: actions/checkout@v3
+    - name: Drop org
+      run: docker run openconceptlab/oclapi2:qa --rm -v $(pwd):/fhir api python tools/import.py -f /fhir -t https://fhir.qa.openconceptlab.org/orgs/fhir_imports -s ${{ secrets.OCLAPI_TOKEN }} -c https://api.qa.openconceptlab.org/orgs/fhir_imports
