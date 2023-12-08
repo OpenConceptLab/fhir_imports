@@ -12,8 +12,8 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
-    - name: Clear fhir_imports_test org
-      run: docker run openconceptlab/oclapi2:qa --rm api python tools/import.py -t https://fhir.qa.openconceptlab.org/orgs/fhir_imports_test -s ${{ secrets.OCLAPI_TOKEN }} -c https://api.qa.openconceptlab.org/orgs/fhir_imports_test
+    - name: Clear fhir_imports org
+      run: docker run openconceptlab/oclapi2:qa --rm api python tools/import.py -t https://fhir.qa.openconceptlab.org/orgs/fhir_imports -s ${{ secrets.OCLAPI_TOKEN }} -c https://api.qa.openconceptlab.org/orgs/fhir_imports
   
   qa-import:
     needs: [qa-clear]
@@ -24,6 +24,6 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
-    - name: Import into fhir_imports_test org
-      run: docker run openconceptlab/oclapi2:qa --rm -v $(pwd):/fhir api python tools/import.py -f /fhir -t https://fhir.qa.openconceptlab.org/orgs/fhir_imports_test -s ${{ secrets.OCLAPI_TOKEN }} -c https://api.qa.openconceptlab.org/orgs/fhir_imports_test
+    - name: Import into fhir_imports org
+      run: docker run openconceptlab/oclapi2:qa --rm -v $(pwd):/fhir api python tools/import.py -f /fhir -t https://fhir.qa.openconceptlab.org/orgs/fhir_imports -s ${{ secrets.OCLAPI_TOKEN }} -c https://api.qa.openconceptlab.org/orgs/fhir_imports
  
