@@ -5,8 +5,8 @@ name: Import
 on: workflow_dispatch
 
 jobs:
-  qa-clear:
-    name: Clear on QA
+  staging-clear:
+    name: Clear on staging
     runs-on: ubuntu-latest
 
     steps:
@@ -15,11 +15,11 @@ jobs:
     - name: Clear fhir_imports org
       run: docker run --rm openconceptlab/oclapi2:qa python tools/import.py -t https://fhir.staging.openconceptlab.org/orgs/fhir_imports -s ${{ secrets.OCLAPI_TOKEN }} -c https://api.staging.openconceptlab.org/orgs/fhir_imports
   
-  qa-import:
-    needs: [qa-clear]
-    name: Import on QA
+  staging-import:
+    needs: [staging-clear]
+    name: Import on staging
     runs-on: ubuntu-latest
-    environment: qa-import
+    environment: staging-import
 
     steps:
     - name: Checkout repo
