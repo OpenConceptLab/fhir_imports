@@ -1,0 +1,158 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "DAKICD11",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://hl7.org/fhir/sid/icd-11",
+  "version" : "0.1.0",
+  "name" : "DAKICD11",
+  "title" : "ICD-11 codes from the HIV DAK",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-09-01T00:14:22+00:00",
+  "publisher" : "PATH",
+  "contact" : [{
+    "name" : "PATH",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.path.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@path.org"
+    }]
+  },
+  {
+    "name" : "PATH",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "info@path.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "ICD-11 codes from the HIV DAK",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 28,
+  "concept" : [{
+    "code" : "1C62.0",
+    "display" : "HIV disease clinical stage 1 without mention of tuberculosis or malaria"
+  },
+  {
+    "code" : "1C62.1",
+    "display" : "HIV disease clinical stage 2 without mention of tuberculosis or malaria"
+  },
+  {
+    "code" : "1C62.2",
+    "display" : "HIV disease clinical stage 3 without mention of tuberculosis or malaria"
+  },
+  {
+    "code" : "1C62.3",
+    "display" : "HIV disease clinical stage 4 without mention of tuberculosis or malaria"
+  },
+  {
+    "code" : "1C62.Z",
+    "display" : "Human immunodeficiency virus disease without mention of associated disease or condition, clinical stage unspecified"
+  },
+  {
+    "code" : "XM63K0",
+    "display" : "Anti-infective antiviral"
+  },
+  {
+    "code" : "QA14",
+    "display" : "Contact with health services for human immunodeficiency virus counselling"
+  },
+  {
+    "code" : "XM35P4",
+    "display" : "Abacavir"
+  },
+  {
+    "code" : "XM2L06",
+    "display" : "Emtricitabine"
+  },
+  {
+    "code" : "XM5471",
+    "display" : "Lamivudine"
+  },
+  {
+    "code" : "XM9C07",
+    "display" : "Zidovudine"
+  },
+  {
+    "code" : "XM8Z78",
+    "display" : "Didanosine"
+  },
+  {
+    "code" : "XM7RM1",
+    "display" : "Stavudine"
+  },
+  {
+    "code" : "XM67N3",
+    "display" : "Tenofovir disoproxil"
+  },
+  {
+    "code" : "XM1DX2",
+    "display" : "Efavirenz"
+  },
+  {
+    "code" : "XM7N44",
+    "display" : "Etravirine"
+  },
+  {
+    "code" : "XM10T5",
+    "display" : "Nevirapine"
+  },
+  {
+    "code" : "XM1KD4",
+    "display" : "Rilpivirine"
+  },
+  {
+    "code" : "XM4TF3",
+    "display" : "Atazanavir and Ritonavir"
+  },
+  {
+    "code" : "XM3EH7",
+    "display" : "Lopinavir and Ritonavir"
+  },
+  {
+    "code" : "XM8ZN1",
+    "display" : "Darunavir and Ritonavir"
+  },
+  {
+    "code" : "XM56L1",
+    "display" : "Ritonavir"
+  },
+  {
+    "code" : "XM6K45",
+    "display" : "Dolutegravir"
+  },
+  {
+    "code" : "XM82D3",
+    "display" : "Raltegravir"
+  },
+  {
+    "code" : "XM8QY9",
+    "display" : "Lamivudine, Tenofovir disoproxil and Dolutegravir"
+  },
+  {
+    "code" : "XM3U67",
+    "display" : "Antivirals for treatment of human immunodeficiency virus infections, combinations  best fit"
+  },
+  {
+    "code" : "XM9NL2",
+    "display" : "Lamivudine, Tenofovir disoproxil and Efavirenz"
+  },
+  {
+    "code" : "XM2UU9",
+    "display" : "Lamivudine, Abacavir and Dolutegravir"
+  }]
+}
