@@ -1,0 +1,225 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.359",
+  "meta" : {
+    "versionId" : "18",
+    "lastUpdated" : "2023-01-22T01:03:33.000-05:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+    "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 15 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1149327007\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-1149327007\">1149327007</a></td><td>http://snomed.info/sct</td><td>Poisoning caused by Clostridium botulinum toxin (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1156793005\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-1156793005\">1156793005</a></td><td>http://snomed.info/sct</td><td>Adult infection of intestine caused by Clostridium botulinum (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1156829005\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-1156829005\">1156829005</a></td><td>http://snomed.info/sct</td><td>Iatrogenic infection caused by Clostridium botulinum (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-398523009\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-398523009\">398523009</a></td><td>http://snomed.info/sct</td><td>Foodborne botulism (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-398530003\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-398530003\">398530003</a></td><td>http://snomed.info/sct</td><td>Wound botulism (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-398565003\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-398565003\">398565003</a></td><td>http://snomed.info/sct</td><td>Infection caused by Clostridium botulinum (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-409562009\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-409562009\">409562009</a></td><td>http://snomed.info/sct</td><td>Inhalational botulism (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-409563004\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-409563004\">409563004</a></td><td>http://snomed.info/sct</td><td>Intestinal botulism (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-409564005\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-409564005\">409564005</a></td><td>http://snomed.info/sct</td><td>Foodborne botulism, type A (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-409565006\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-409565006\">409565006</a></td><td>http://snomed.info/sct</td><td>Foodborne botulism, type B (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-409566007\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-409566007\">409566007</a></td><td>http://snomed.info/sct</td><td>Foodborne botulism, type E (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-409567003\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-409567003\">409567003</a></td><td>http://snomed.info/sct</td><td>Foodborne botulism, type F (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414488002\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-414488002\">414488002</a></td><td>http://snomed.info/sct</td><td>Infantile botulism (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414820001\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-414820001\">414820001</a></td><td>http://snomed.info/sct</td><td>Neonatal botulism (disorder)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-840421000\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/livd/CodeSystem-snomed-fragment-livd.html#snomed-fragment-livd-840421000\">840421000</a></td><td>http://snomed.info/sct</td><td>Disorder of neuromuscular junction caused by botulinum toxin (disorder)</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+    "valueString" : "CSTE Author"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+    "valueString" : "Botulism,G_Neurologic,Trigger"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+    "valueDate" : "2023-01-22"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+    "valueDate" : "2023-01-22"
+  }],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.359",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113762.1.4.1146.359"
+  }],
+  "version" : "20230122",
+  "name" : "BotulismDisordersSNOMED",
+  "title" : "Botulism (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2023-01-22T01:03:33-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+      "valueString" : "UNKNOWN"
+    }]
+  }],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has botulism regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Root1 = Foodborne botulism (disorder);\nRoot1 children included = All;\n\nAdded leaf concepts: YES),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1149327007",
+        "display" : "Poisoning caused by Clostridium botulinum toxin (disorder)"
+      },
+      {
+        "code" : "1156793005",
+        "display" : "Adult infection of intestine caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "1156829005",
+        "display" : "Iatrogenic infection caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "38719000",
+        "display" : "Toxicoinfectious botulism (disorder)"
+      },
+      {
+        "code" : "398523009",
+        "display" : "Foodborne botulism (disorder)"
+      },
+      {
+        "code" : "398530003",
+        "display" : "Wound botulism (disorder)"
+      },
+      {
+        "code" : "398565003",
+        "display" : "Infection caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "409562009",
+        "display" : "Inhalational botulism (disorder)"
+      },
+      {
+        "code" : "409563004",
+        "display" : "Intestinal botulism (disorder)"
+      },
+      {
+        "code" : "409564005",
+        "display" : "Foodborne botulism, type A (disorder)"
+      },
+      {
+        "code" : "409565006",
+        "display" : "Foodborne botulism, type B (disorder)"
+      },
+      {
+        "code" : "409566007",
+        "display" : "Foodborne botulism, type E (disorder)"
+      },
+      {
+        "code" : "409567003",
+        "display" : "Foodborne botulism, type F (disorder)"
+      },
+      {
+        "code" : "414488002",
+        "display" : "Infantile botulism (disorder)"
+      },
+      {
+        "code" : "414531002",
+        "display" : "Intoxication with Clostridium botulinum toxin (disorder)"
+      },
+      {
+        "code" : "414820001",
+        "display" : "Neonatal botulism (disorder)"
+      },
+      {
+        "code" : "840421000",
+        "display" : "Disorder of neuromuscular junction caused by botulinum toxin (disorder)"
+      }]
+    }]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:0c797666-ca95-498b-8b6c-8c21ec9dee1a",
+    "timestamp" : "2023-06-29T16:01:32-04:00",
+    "total" : 15,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "1149327007",
+      "display" : "Poisoning caused by Clostridium botulinum toxin (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "1156793005",
+      "display" : "Adult infection of intestine caused by Clostridium botulinum (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "1156829005",
+      "display" : "Iatrogenic infection caused by Clostridium botulinum (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "398523009",
+      "display" : "Foodborne botulism (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "398530003",
+      "display" : "Wound botulism (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "398565003",
+      "display" : "Infection caused by Clostridium botulinum (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "409562009",
+      "display" : "Inhalational botulism (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "409563004",
+      "display" : "Intestinal botulism (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "409564005",
+      "display" : "Foodborne botulism, type A (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "409565006",
+      "display" : "Foodborne botulism, type B (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "409566007",
+      "display" : "Foodborne botulism, type E (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "409567003",
+      "display" : "Foodborne botulism, type F (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "414488002",
+      "display" : "Infantile botulism (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "414820001",
+      "display" : "Neonatal botulism (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108/version/20230301",
+      "code" : "840421000",
+      "display" : "Disorder of neuromuscular junction caused by botulinum toxin (disorder)"
+    }]
+  }
+}

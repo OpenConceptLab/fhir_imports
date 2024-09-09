@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1096.82",
+  "meta": {
+    "versionId": "11",
+    "lastUpdated": "2023-12-21T17:43:03.000-05:00",
+    "profile": [ "http://hl7.org/fhir/StructureDefinition/shareablevalueset", "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm", "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm" ]
+  },
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
+    "valueContactDetail": {
+      "name": "PharmacyHIT Author"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+    "valueDate": "2022-12-27"
+  }, {
+    "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+    "valueDate": "2017-08-01"
+  } ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.82",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113762.1.4.1096.82"
+  } ],
+  "version": "20170801",
+  "name": "InactiveInterventionsRelatedToMedicationManagementMedicationActionPlan",
+  "title": "(Inactive) Interventions Related to Medication Management, Medication Action Plan",
+  "status": "retired",
+  "experimental": false,
+  "date": "2017-08-01T01:00:05-04:00",
+  "publisher": "PharmacyHIT",
+  "jurisdiction": [ {
+    "extension": [ {
+      "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+      "valueCode": "unknown"
+    } ]
+  } ],
+  "purpose": "(Clinical Focus: This set of values contains codes that represent the creation or update of a medication action plan for patients to treat cardiovascular disorders.),(Data Element Scope: Datatype: Intervention\n\nThe intent of this data element is to document when providers create or update a medication action plan specifically for cardiovascular disorders.),(Inclusion Criteria: Any codes that represent documentation of medication action plan.),(Exclusion Criteria: Codes that are not related to the documentation or update of a medication action plan.)",
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "432351000124105",
+        "display": "Documentation of medication related action plan (procedure)"
+      } ]
+    } ]
+  }
+}
