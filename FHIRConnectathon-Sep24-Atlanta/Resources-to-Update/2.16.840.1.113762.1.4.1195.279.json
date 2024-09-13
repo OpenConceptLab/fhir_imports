@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1195.279",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2023-12-21T17:43:03.000-05:00",
+    "profile": [ "http://hl7.org/fhir/StructureDefinition/shareablevalueset", "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm", "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm" ]
+  },
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
+    "valueContactDetail": {
+      "name": "NJII Author"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+    "valueDate": "2024-06-03"
+  }, {
+    "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+    "valueDate": "2019-02-06"
+  } ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1195.279",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113762.1.4.1195.279"
+  } ],
+  "version": "20190206",
+  "name": "AETNADiabetesHemoglobinA1cTestingMeasureNumerator",
+  "title": "AETNA Diabetes Hemoglobin A1c testing measure numerator",
+  "status": "retired",
+  "experimental": false,
+  "date": "2022-03-03T18:46:01-05:00",
+  "publisher": "NJII Steward",
+  "jurisdiction": [ {
+    "extension": [ {
+      "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+      "valueCode": "unknown"
+    } ]
+  } ],
+  "purpose": "(Clinical Focus: AETNA Diabetes: Hemoglobin A1c testing measure numerator),(Data Element Scope: Codes defined in measure.),(Inclusion Criteria: Codes defined in measure.),(Exclusion Criteria: None specified.)",
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1195.277" ]
+    }, {
+      "valueSet": [ "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1195.278" ]
+    } ]
+  }
+}
