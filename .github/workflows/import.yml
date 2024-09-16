@@ -12,8 +12,8 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
-    - name: Clear fhir_imports4 org
-      run: docker run --rm openconceptlab/oclapi2:qa python tools/import.py -t https://fhir.staging.openconceptlab.org/orgs/fhir_imports4 -s ${{ secrets.OCLAPI_TOKEN }} -c https://api.staging.openconceptlab.org/orgs/fhir_imports4
+    - name: Clear fhir_imports org
+      run: docker run --rm openconceptlab/oclapi2:qa python tools/import.py -t https://fhir.staging.openconceptlab.org/orgs/fhir_imports -s ${{ secrets.OCLAPI_TOKEN }} -c https://api.staging.openconceptlab.org/orgs/fhir_imports
   
   staging-import:
     needs: [staging-clear]
@@ -24,6 +24,6 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
-    - name: Import into fhir_imports4 org
-      run: docker run --rm -v $(pwd):/fhir openconceptlab/oclapi2:qa python tools/import.py -f /fhir/FHIRConnectathon-Sep24-Atlanta/Resources-to-Update/ -t https://fhir.staging.openconceptlab.org/orgs/fhir_imports4 -s ${{ secrets.OCLAPI_TOKEN }} -c https://api.staging.openconceptlab.org/orgs/fhir_imports4
+    - name: Import into fhir_imports org
+      run: docker run --rm -v $(pwd):/fhir openconceptlab/oclapi2:qa python tools/import.py -f /fhir/ -t https://fhir.staging.openconceptlab.org/orgs/fhir_imports -s ${{ secrets.OCLAPI_TOKEN }} -c https://api.staging.openconceptlab.org/orgs/fhir_imports
  
