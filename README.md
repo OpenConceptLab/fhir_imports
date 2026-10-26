@@ -36,3 +36,7 @@ List of original source links where available:
 * HL7 FHIR Core resources:
     * [Terminology Page](https://www.hl7.org/fhir/terminologies-systems.html)
     * [Full IG download](https://www.hl7.org/fhir/downloads.html)
+
+## License
+
+This repository is not part of the [OCL Digital Public Good](https://github.com/OpenConceptLab/.github/blob/main/DIGITAL-PUBLIC-GOOD.md). The FHIR resources here come from the sources listed above and keep their sources' licenses.
